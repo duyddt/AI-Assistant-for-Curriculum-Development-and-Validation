@@ -1,0 +1,78 @@
+{
+  "run_id": "11111111-1111-1111-1111-111111111111",
+  "agent_id": "sv-5",
+  "program_id": "CTDT-CNTT-2026",
+  "user_id": "gv001",
+  "payload": {
+    "course_info": {
+      "course_name": "Nhập môn Trí tuệ nhân tạo",
+      "course_code": "CS301",
+      "credits": 3
+    },
+    "clos": [
+      {
+        "code": "CLO1",
+        "description": "Trình bày được các khái niệm cơ bản của AI",
+        "bloom_level": 1,
+        "bloom_label": "remember",
+        "mapped_plos": ["PLO1"]
+      },
+      {
+        "code": "CLO2",
+        "description": "Giải thích được nguyên lý hoạt động của thuật toán tìm kiếm",
+        "bloom_level": 2,
+        "bloom_label": "understand",
+        "mapped_plos": ["PLO1", "PLO2"]
+      },
+      {
+        "code": "CLO3",
+        "description": "Áp dụng thuật toán học máy để giải bài toán phân loại",
+        "bloom_level": 3,
+        "bloom_label": "apply",
+        "mapped_plos": ["PLO2"]
+      },
+      {
+        "code": "CLO4",
+        "description": "Phân tích ưu nhược điểm của các mô hình học sâu",
+        "bloom_level": 4,
+        "bloom_label": "analyze",
+        "mapped_plos": ["PLO2", "PLO3"]
+      },
+      {
+        "code": "CLO5",
+        "description": "Đánh giá hiệu quả của một hệ thống AI trong bài toán thực tế",
+        "bloom_level": 5,
+        "bloom_label": "evaluate",
+        "mapped_plos": ["PLO3"]
+      },
+      {
+        "code": "CLO6",
+        "description": "Thiết kế một ứng dụng AI hoàn chỉnh giải quyết vấn đề thực tế",
+        "bloom_level": 6,
+        "bloom_label": "create",
+        "mapped_plos": ["PLO3", "PLO4"]
+      }
+    ],
+    "curriculum_structure": {
+      "topics": [
+        { "name": "Giới thiệu về AI", "prerequisites": [] },
+        { "name": "Giải quyết vấn đề bằng tìm kiếm", "prerequisites": ["Giới thiệu về AI"] },
+        { "name": "Biểu diễn tri thức", "prerequisites": ["Giới thiệu về AI"] },
+        { "name": "Học máy cơ bản", "prerequisites": ["Giải quyết vấn đề bằng tìm kiếm", "Biểu diễn tri thức"] },
+        { "name": "Mạng nơ-ron & Học sâu", "prerequisites": ["Học máy cơ bản"] },
+        { "name": "Ứng dụng AI thực tế", "prerequisites": ["Mạng nơ-ron & Học sâu"] }
+      ],
+      "references": [
+        "Russell, S., Norvig, P. (2020). Artificial Intelligence: A Modern Approach, 4th Edition.",
+        "Goodfellow, I., Bengio, Y., Courville, A. (2016). Deep Learning.",
+        "Tài liệu bài giảng nội bộ AAIR Lab, 2026."
+      ]
+    },
+    "total_weeks": 15
+  },
+  "context": {
+    "tenant_id": "hcmou",
+    "trace_id": "trace-happy-001",
+    "timestamp": "2026-08-12T09:00:00Z"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "22222222-2222-2222-2222-222222222222",
+  "agent_id": "sv-5",
+  "program_id": "CTDT-CNTT-2026",
+  "payload": {
+    "clos": [{"code": "CLO1", "description": "x", "bloom_level": 1, "bloom_label": "remember"}],
+    "curriculum_structure": {"topics": [{"name": "A", "prerequisites": []}]},
+    "total_weeks": 15
+  },
+  "context": {}
+}

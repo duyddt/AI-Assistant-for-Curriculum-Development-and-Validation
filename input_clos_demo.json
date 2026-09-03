@@ -1,0 +1,36 @@
+{
+  "course_name": "Chuyên đề Agentic AI",
+  "course_code": "AI401",
+  "credits": 3,
+  "total_weeks": 15,
+  "clos": [
+    {
+      "code": "CLO1",
+      "description": "Trình bày được khái niệm và đặc điểm của Agentic AI",
+      "bloom_level": 2,
+      "bloom_label": "understand",
+      "mapped_plos": ["PLO1"]
+    },
+    {
+      "code": "CLO2",
+      "description": "Phân tích được luồng goal, planning, action, memory và feedback loop",
+      "bloom_level": 4,
+      "bloom_label": "analyze",
+      "mapped_plos": ["PLO2", "PLO3"]
+    },
+    {
+      "code": "CLO3",
+      "description": "So sánh được kiến trúc single-agent, tool-based agent và multi-agent",
+      "bloom_level": 4,
+      "bloom_label": "analyze",
+      "mapped_plos": ["PLO3"]
+    },
+    {
+      "code": "CLO4",
+      "description": "Thiết kế được một mini agent có sử dụng công cụ và vòng lặp kiểm tra kết quả",
+      "bloom_level": 6,
+      "bloom_label": "create",
+      "mapped_plos": ["PLO3", "PLO8"]
+    }
+  ]
+}

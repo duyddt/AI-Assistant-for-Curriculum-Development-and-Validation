@@ -1,0 +1,8 @@
+crewai[google-genai]>=0.80.0
+pydantic>=2.0
+fastapi>=0.110
+python-dotenv
+pytest
+pytest-asyncio
+pypdf>=5.0
+python-docx>=1.1

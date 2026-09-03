@@ -1,0 +1,12 @@
+{
+  "run_id": "44444444-4444-4444-4444-444444444444",
+  "agent_id": "sv-5",
+  "program_id": "CTDT-CNTT-2026",
+  "payload": {
+    "course_info": {"course_name": "Demo", "course_code": "D001", "credits": 0},
+    "clos": [{"code": "CLO1", "description": "x", "bloom_level": 7, "bloom_label": "unknown"}],
+    "curriculum_structure": {"topics": [{"name": "A", "prerequisites": []}]},
+    "total_weeks": 15
+  },
+  "context": {}
+}

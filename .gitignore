@@ -1,0 +1,32 @@
+# Secret
+.env
+.env.*
+!.env.example
+*secret*
+*credentials*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Generated files
+_report_work/
+output/
+*.log
+
+# IDE và hệ điều hành
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Tài liệu được cung cấp riêng
+*.pdf

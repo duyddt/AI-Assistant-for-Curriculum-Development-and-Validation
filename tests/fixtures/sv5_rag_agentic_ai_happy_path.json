@@ -1,0 +1,55 @@
+{
+  "run_id": "22222222-2222-2222-2222-222222222222",
+  "agent_id": "sv-5",
+  "program_id": "CTDT-AI-2026",
+  "user_id": "gv001",
+  "payload": {
+    "course_info": {
+      "course_name": "Chuyên đề Agentic AI",
+      "course_code": "AI401",
+      "credits": 3
+    },
+    "clos": [
+      {
+        "code": "CLO1",
+        "description": "Trình bày được khái niệm và đặc điểm của Agentic AI",
+        "bloom_level": 2,
+        "bloom_label": "understand",
+        "mapped_plos": ["PLO1"]
+      },
+      {
+        "code": "CLO2",
+        "description": "Phân tích được luồng goal, planning, action, memory và feedback loop của agent",
+        "bloom_level": 4,
+        "bloom_label": "analyze",
+        "mapped_plos": ["PLO2", "PLO3"]
+      },
+      {
+        "code": "CLO3",
+        "description": "Thiết kế được một mini agent có sử dụng công cụ và kiểm tra kết quả",
+        "bloom_level": 6,
+        "bloom_label": "create",
+        "mapped_plos": ["PLO3", "PLO8"]
+      }
+    ],
+    "curriculum_structure": {
+      "topics": [
+        {"name": "Khái niệm Agentic AI", "prerequisites": []},
+        {"name": "Đặc điểm goal, planning, action và memory", "prerequisites": ["Khái niệm Agentic AI"]},
+        {"name": "Feedback loop và kiểm tra kết quả", "prerequisites": ["Đặc điểm goal, planning, action và memory"]},
+        {"name": "Kiến trúc single-agent, tool-based agent và multi-agent", "prerequisites": ["Đặc điểm goal, planning, action và memory"]},
+        {"name": "Thiết kế mini agent", "prerequisites": ["Feedback loop và kiểm tra kết quả", "Kiến trúc single-agent, tool-based agent và multi-agent"]}
+      ],
+      "references": [
+        "Huỳnh Hữu Nghĩa, Agentic AI.",
+        "Chương trình đào tạo Cử nhân Trí tuệ nhân tạo."
+      ]
+    },
+    "total_weeks": 15
+  },
+  "context": {
+    "tenant_id": "hcmou",
+    "trace_id": "trace-rag-agentic-001",
+    "timestamp": "2026-08-26T09:00:00Z"
+  }
+}
